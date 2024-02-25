@@ -41,7 +41,7 @@ let temp_shape_rotate_inc = 0;
 setTimeout(()=>{
     console.log('2')
     start_game(t_shapes);
-},100);
+},200);
 
 function start_game(shape){
     get_color(shape);
