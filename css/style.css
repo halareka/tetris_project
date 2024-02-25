@@ -1,0 +1,46 @@
+body {
+  display: flex;
+  justify-content: center;
+  background-color: #1f1e1f; }
+  
+.root {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  width: 30%;
+  height: 77.78%;
+  background-color: #3b303b; 
+  margin-right: 7vw;
+  color: aliceblue;
+}
+
+.block {
+  background-color: transparent;
+  height: 2.43vw;
+  width: 10%;
+  box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.5);
+}
+.menu{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-size: 10px;
+  width: 150px;
+  height: 175px;
+  color: azure;
+  background-color: #312c31;
+}
+.menu > div{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 50px;
+  height: 60px;
+  text-align: center;
+  font-size: 30px;
+  color: rgba(145, 71, 141, 0);
+  background-color: #312c31;
+  transition: 300ms;
+}
+.menu > div:hover{
+  color: rgb(145, 71, 141);
+  background-color: rgb(80, 55, 78);
+}
+

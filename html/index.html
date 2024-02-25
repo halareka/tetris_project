@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>tetris</title>
+    <link rel="stylesheet" href="../css/style.css">
+
+    <script src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+
+
+</head>
+<body >
+    <div class="menu">
+        <h1><span>рекорд:</span><span id="record">0</span></h1>
+        <h1 style="margin-left: -55px;"><span>очки:</span><span id="score">0</span></h1>
+        <div class="restart" onclick="location.reload()">restart!</div>
+    </div>
+
+    <div id="root" class="root">
+
+    </div>
+
+
+    <script defer src="../scripts/matrix.jsx" type="text/babel"></script>
+    <script defer src="../scripts/script.js" type="module"></script>
+    <script defer src="../scripts/score.js" type="module"></script>
+</body>
+</html>
