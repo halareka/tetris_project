@@ -1,6 +1,6 @@
 console.log('1');
 //
-if(localstorage.getItem("matrix){
+if(localstorage.getItem("matrix"){
  ReactDOM.render(localstorage.getItem("matrix");
 }
 const root = document.getElementById('root');
