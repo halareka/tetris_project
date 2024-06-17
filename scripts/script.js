@@ -194,6 +194,8 @@ function get_color(arr,a){
     }
 }
 
+
+// need to change!!
 function rotate_shape(){
     temp_arr.sort((a,b)=> b-a);
     function bind(){
