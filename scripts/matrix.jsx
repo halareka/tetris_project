@@ -1,6 +1,8 @@
 console.log('1');
 //
-
+if(localstorage.getItem("matrix){
+ ReactDOM.render(localstorage.getItem("matrix");
+}
 const root = document.getElementById('root');
 let ab = 0;
 let count = 9;
@@ -12,5 +14,6 @@ while(ab < 200){
 }
 function getid(){return ++count;}
 
+localstorage.setItem("matrix",cube);
 ReactDOM.render(cube, root);
 
