@@ -8,11 +8,10 @@ let ab = 0;
 let count = 9;
 const cube = [];
 
-while(ab < 200){
-    cube.push(<div className='block' id={getid()} style={{ backgroundColor: 'transparent' }}></div>);
-    ab++;
+for(let i = 9; i <= 209; i++){
+    cube.push(<div className='block' id={i} style={{ backgroundColor: 'transparent' }}></div>);
 }
-function getid(){return ++count;}
+
 
 localstorage.setItem("matrix",cube);
 ReactDOM.render(cube, root);
