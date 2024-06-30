@@ -3,9 +3,7 @@ console.log('1');
 if(localstorage.getItem("matrix"){
  ReactDOM.render(localstorage.getItem("matrix");
 }
-const root = document.getElementById('root');
-let ab = 0;
-let count = 9;
+const root = document.getElementById('root');
 const cube = [];
 
 for(let i = 9; i <= 209; i++){
